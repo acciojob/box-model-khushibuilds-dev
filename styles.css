@@ -2,39 +2,40 @@
 
 
 #container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	background-color:  #e0e0e0;
 	border: 2px solid black;
 	border-radius: 50px;
 	text-align: center;
 	padding:  20px 40px;
     width: 400px;
-    height: 200px;
+
+}
+
+.red, .green, .yellow{
+	display: inline-block;
+	margin: 0 10px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	
 }
 
 .green{
 	background-color: green;
-	border-radius: 50%;
-    width: 100px;
-    height: 100px;
-	margin: 10px;
+   
 }
 
 .yellow{
 	background-color: yellow;
-	border-radius: 50%;
-	width: 100px;
-    height: 100px;
-	margin: 10px;
+
+	
 }
 
 .red{
 	background-color: red;
-	border-radius: 50%;
-    width: 100px;
-    height: 100px;
-	margin: 10px;
 
+}
+
+
+	
 }
